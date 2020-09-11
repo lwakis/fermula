@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.container-main-header {
+    display: flex;
+}
+
+.logo {
+    width: 125.5px;
+    height: 35px;
+    margin-left: 0;
+    background: url(../img/header.png) no-repeat;
+}
+
+.game-name {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    padding-top: 10px;
+    font-family: 'TTNormsMedium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0D0D0D;
+}
+
+.container-gold {
+    display: flex;
+    margin-right: 0;
+}
+
+.container-coin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'TTNormsMedium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    padding-right: 8px;
+}
+
+.container-coin img {
+    width: 15px;
+    height: 15px;
+}
+
+.container-energy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'TTNormsMedium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    margin-right: 30px;
+}
+
+.container-energy img {
+    width: 15px;
+    height: 16px;
+}
+
+.container-img {
+    background: url(../img/header-bcn.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-img::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.welcome-text {
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.welcome-text h3 {
+    font-family: 'TTNormsMedium';
+    margin-bottom: 5px;
+}
+
+.welcome-text p {
+    font-family: 'TTNormsMedium';
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-desc {
+    font-size: 12px;
+    color: #878787;
+    font-family: 'TTNormsMedium';
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.mb {
+    margin-top: 10px;
+}
+
+.main {
+    padding: 20px 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+
+.col-6 {
+    display: flex;
+    justify-content: center;
+    width: 46%;
+    margin: 0 2%;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.buttons-primary {
+    background-color: #FF8E3C;
+    border: none;
+    text-decoration: none;
+    padding: 13px 24px;
+    transform: skew(-10deg);
+    border-radius: 3px;
+}
+
+.buttons-primary span {
+    font-size: 14px;
+    font-family: 'TTNormsMedium';
+    transform: skew(40deg);
+}
+
+.buttons-light {
+    background-color: #EFF0F3;
+    border: none;
+    font-family: 'TTNormsBold';
+    text-decoration: none;
+    padding: 13px 24px;
+    transform: skew(-10deg);
+    border-radius: 3px;
+}
+
+.buttons-light span {
+    font-size: 14px;
+    font-family: 'TTNormsMedium';
+    color: rgba(0, 0, 0, 0.56);
+    transform: skew(10deg);
+}
+
+.welcome-content {
+    margin: 50px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+.welcome-content h3 {
+    font-family: 'TTNormsBold';
+    margin-bottom: 5px;
+}
+
+.welcome-content p {
+    font-family: 'TTNormsMedium';
+    color: #BCBCBC;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-family: 'TTNormsMedium';
+    background-color: #EFF0F3;
+    height: 35px;
+    width: 100%;
+    color: #707070;
+}
